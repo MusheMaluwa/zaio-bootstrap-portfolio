@@ -23,8 +23,12 @@
 }
 
 .nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
-  border-bottom: .25rem solid transparent;
+  padding: 0.25rem 0;
+  font-size: 700;
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 0.25rem solid transparent;
+  background-color: transparent;
+
 }
 
 .nav-masthead .nav-link:hover,
@@ -40,3 +44,10 @@
   color: #fff;
   border-bottom-color: #fff;
 }
+
+.scrolling{
+  background: black;
+  opacity: 80%;
+  transition: all 0.5s;
+}
+
